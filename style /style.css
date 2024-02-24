@@ -1,0 +1,32 @@
+
+body{
+    color: aliceblue;
+    background-color: #2727ff;
+    font-family:"Oswald", sans-serif;
+}
+h1{
+    font-size: 55px;
+   line-height: 75px; 
+}
+h1 strong {
+    color: #00e5fc;
+}
+header ul li{ 
+    margin-left: 2%;
+    padding: 0.5%;
+    border:solid 1.5px rgb(243, 240, 238);
+    font-size: 30px;
+    display: inline;
+
+}
+header ul li a{ 
+    text-decoration:none;
+    color: aliceblue;
+    
+}
+header,main,footer{
+    margin: 10%;
+}
+main p{
+    text-align: center;
+}
