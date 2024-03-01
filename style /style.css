@@ -1,32 +1,39 @@
 
-body{
-    color: aliceblue;
-    background-color: #2727ff;
-    font-family:"Oswald", sans-serif;
+    body
+{
+    color: white;
+    background: #836FFF;
+    font-family: "Roboto", sans-serif;
 }
-h1{
-    font-size: 55px;
-   line-height: 75px; 
-}
-h1 strong {
-    color: #00e5fc;
-}
-header ul li{ 
-    margin-left: 2%;
-    padding: 0.5%;
-    border:solid 1.5px rgb(243, 240, 238);
-    font-size: 30px;
-    display: inline;
 
+    h1
+    {
+        font-size: 55px;
+        line-height: 45px;
+    }
+
+        h1 strong
+    {
+        color: yellow;     
+    }
+
+    header ul li a{
+    color: pink;
+    text-decoration: none ;
 }
-header ul li a{ 
-    text-decoration:none;
-    color: aliceblue;
-    
+
+header ul{
+    list-style: none;
 }
-header,main,footer{
-    margin: 10%;
+
+header ul li{
+    display: inline;
 }
-main p{
-    text-align: center;
+header, main, footer{
+
+    border: dotted black;
+    margin: 30 80 30 80px;
+}
+footer{
+    background: #6A5ACD;
 }
