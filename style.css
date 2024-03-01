@@ -1,0 +1,51 @@
+
+body{
+    color: aliceblue;
+    background-color: #1F6E8C;
+    font-family:"Oswald", sans-serif;
+}
+h1{
+    font-size: 64px;
+   line-height: 56px; 
+}
+h1 strong {
+    color: #00e5fc;
+}
+header ul li{ 
+    margin-left: 2%;
+    padding: 0.5%;
+    border:solid 1.5px rgb(243, 240, 238);
+    font-size: 30px;
+    display: inline;
+
+}
+header ul li a{ 
+    text-decoration:none;
+    color: aliceblue;
+    padding-right: 15px;
+    
+}
+header ul {
+    list-style:none;
+    padding-left: 0;
+}
+header,main,footer{
+    width: 1120px;
+    margin: 0 auto;
+}
+main p{
+    text-align: center;
+}
+
+section {
+    box-sizing: border-box;
+    float:left;
+}
+.secao-imagem {
+    width: 20%;
+}
+
+footer {
+    float: left;
+    height: 50px;
+}
